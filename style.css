@@ -56,3 +56,54 @@ footer{
     color: white;
     text-align: center;
 }
+
+@media (max-width: 1200px) {
+    nav {
+        grid-template-columns: 1fr;
+    }
+
+    nav > a {
+        font-size: 80px;
+    }
+
+    header {
+        font-size: 40px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 50px;
+    }
+
+    nav > a {
+        font-size: 60px;
+    }
+
+    #porsche,
+    #bmw {
+        height: 300px;
+        background-size: cover;
+    }
+
+    header {
+        font-size: 30px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav > a {
+        font-size: 40px;
+    }
+
+    body {
+        padding: 20px;
+    }
+
+    header {
+        font-size: 20px;
+        height: 150px;
+    }
+}

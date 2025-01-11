@@ -64,3 +64,74 @@ footer{
     color: black;
     background-color: beige;
 }
+
+@media (max-width: 1200px) {
+    body {
+        padding: 50px;
+    }
+
+    header {
+        height: 250px;
+        font-size: 40px;
+    }
+
+    nav > ul > li {
+        padding: 1vw;
+    }
+
+    article > ul {
+        font-size: 12px;
+    }
+
+    article > ul > p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 30px;
+    }
+
+    header {
+        height: 200px;
+        font-size: 30px;
+    }
+
+    nav > ul > li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    article > ul {
+        font-size: 10px;
+    }
+
+    article > ul > p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    header {
+        height: 150px;
+        font-size: 20px;
+    }
+
+    nav > ul > li {
+        display: block;
+        padding: 5px 0;
+    }
+
+    article > ul {
+        font-size: 9px;
+    }
+
+    article > ul > p {
+        font-size: 12px;
+    }
+}
