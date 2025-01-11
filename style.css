@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    padding: 100px;
+}
+
+header{
+    background-image: url(meet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: auto;
+    border-bottom: 20px solid beige;
+    color: beige;
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    border-top: 20px solid beige;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#porsche{
+    background-image: url(porsche.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#bmw{
+    background-image: url(bmw.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px; 
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-content: center;
+    color: beige;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+nav>a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
